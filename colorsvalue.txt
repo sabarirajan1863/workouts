@@ -1,0 +1,13 @@
+<?php
+$color = array('white','red','black','blue','gray');
+foreach ($color as $x)
+{
+echo "$x , ";
+}
+echo "<ul>";
+foreach ($color as $y)
+{
+echo "<li>$y</li>";
+}
+echo "</ul>";
+?>
